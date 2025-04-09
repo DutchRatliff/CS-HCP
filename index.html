@@ -8,6 +8,33 @@
     </style>
 </head>
 <body>
+    <h1>Wednesday 09 April 2025</h1>
+    <p>The assignment for today is to add two questions to your website, and two buttons that will reveal the answer to each question when clicked.
+    The answer should be revealed as text inside your web page, rather than as an alert. The first question should be suitable to include in the quiz on Friday. As such, it should ask about one of the following topics:</p>
+    <ul>
+        <li>Binary numbers</li>
+        <li>the ASCII code</li>
+        <li>Unicode</li>
+        <li>the World Wide Web</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Microsoft Word, Excel or PowerPoint documents</li>
+    </ul>    
+    <p>The second question can be another question suitable for a quiz, or something suitable for extra credit, such as a joke whose punchline is revealed by the button.
+       To write the code that will reveal the answers to your questions, you may refer to Examples 1 and 2 in the <a href="https://www.geeksforgeeks.org/html-script-tag/">HTML Script Tag Tutorial</a>.</p>
+    <h3>Example: What are the 10 types of people in the world?</h3>
+        <button type="button" onclick="reveal()">
+        Reveal Answer
+    </button>
+    <p id="reveal1"></p>
+    <script>
+        function reveal() {
+            document.getElementById("reveal1").innerHTML
+            = "Those who understand binary and those who do not";
+        } 
+    </script>
+
     <h1>Tuesday 08 April 2025</h1>
     <p>The assignment for today is to add a button to your website. 
         First, make sure you understand how <a href="https://www.geeksforgeeks.org/html-elements/">HTML Elements</a> work. 
